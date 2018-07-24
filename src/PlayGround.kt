@@ -1,8 +1,9 @@
+
+var intArr : IntArray = intArrayOf(33,42,123,42)
+
 fun main(args: Array<String>) {
-    var a = arrayOf(1,2,3)
-    var count = 0
-    for ((index,value) in a.withIndex()){
-        println(index)
+    for ((index,value) in intArr.withIndex()){
+        print("$index ")
         println(value)
     }
 
