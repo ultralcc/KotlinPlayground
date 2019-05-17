@@ -1,7 +1,7 @@
 package ch02.ex3_4_WhenWithoutArument
 
-import ch02.colors.Color
-import ch02.colors.Color.*
+import KotlinInAction.ch02.Color
+import KotlinInAction.ch02.Color.*
 
 fun mixOptimized(c1: Color, c2: Color) =
     when {

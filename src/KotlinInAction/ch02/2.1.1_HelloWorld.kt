@@ -1,4 +1,4 @@
-package ch02.ex1_1_HelloWorld
+package KotlinInAction.ch02
 
 fun main(args: Array<String>) {
     println("Hello, world!")

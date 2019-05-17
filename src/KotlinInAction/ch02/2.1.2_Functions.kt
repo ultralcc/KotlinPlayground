@@ -1,4 +1,4 @@
-package ch02.ex1_2_Functions
+package KotlinInAction.ch02
 
 fun max(a: Int, b: Int): Int {
     return if (a > b) a else b

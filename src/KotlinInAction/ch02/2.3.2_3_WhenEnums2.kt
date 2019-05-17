@@ -1,7 +1,7 @@
 package ch02.ex3_2_3_WhenEnums2
 
-import ch02.colors.Color
-import ch02.colors.Color.*
+import KotlinInAction.ch02.Color
+import KotlinInAction.ch02.Color.*
 
 fun getWarmth(color: Color) = when(color) {
     RED, ORANGE, YELLOW -> "warm"

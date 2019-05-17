@@ -1,10 +1,9 @@
-package ch02.ex2_2_CustomAccessors
+package KotlinInAction.ch02
 
 class Rectangle(val height: Int, val width: Int) {
     val isSquare: Boolean
-        get() {
-            return height == width
-        }
+        get() = height == width
+
 }
 
 fun main(args: Array<String>) {

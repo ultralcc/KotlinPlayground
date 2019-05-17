@@ -7,3 +7,4 @@ fun main(args: Array<String>) {
     println(isLetter('q'))
     println(isNotDigit('x'))
 }
+

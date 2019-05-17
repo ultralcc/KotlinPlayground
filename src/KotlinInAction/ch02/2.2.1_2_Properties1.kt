@@ -1,4 +1,4 @@
-package ch02.person
+package KotlinInAction.ch02
 
 class Person(
     val name: String,

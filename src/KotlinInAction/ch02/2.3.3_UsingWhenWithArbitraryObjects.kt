@@ -1,7 +1,7 @@
 package ch02.ex3_3_UsingWhenWithArbitraryObjects
 
-import ch02.colors.Color
-import ch02.colors.Color.*
+import KotlinInAction.ch02.Color
+import KotlinInAction.ch02.Color.*
 
 fun mix(c1: Color, c2: Color) =
         when (setOf(c1, c2)) {
